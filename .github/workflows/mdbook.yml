@@ -50,4 +50,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 6cc6d34931adb0100185eef69045d726
           command: pages deploy ./book --project-name=tickets-help
