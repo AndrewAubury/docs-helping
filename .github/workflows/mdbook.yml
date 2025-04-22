@@ -47,6 +47,7 @@ jobs:
         with:
           path: ./book
 
+  deploy:
     steps:
       uses: cloudflare/wrangler-action@v3
       with:
